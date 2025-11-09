@@ -35,8 +35,8 @@ public class InventoryListener implements Listener {
         GameMode gameMode = player.getGameMode();
 
         if (gameMode.equals(GameMode.CREATIVE) && (boolean) configService.get("disable-weights-in-creative")
-        ||  gameMode.equals(GameMode.SPECTATOR) && (boolean) configService.get("disable weights-in-spectator")
-        ||  gameMode.equals(GameMode.ADVENTURE) && (boolean) configService.get("disable weights-in-adventure")) {
+        ||  gameMode.equals(GameMode.SPECTATOR) && (boolean) configService.get("disable-weights-in-spectator")
+        ||  gameMode.equals(GameMode.ADVENTURE) && (boolean) configService.get("disable-weights-in-adventure")) {
             return;
         }
 
