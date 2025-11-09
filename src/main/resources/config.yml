@@ -9,6 +9,10 @@ configuration:
   high-weight-speed: 0.15
   max-weight-speed: 0.0
 
+  disable-weights-in-creative: True
+  disable weights-in-adventure: True
+  disable weights-in-spectator: True
+
   use-weakness-on-medium-weight: True
   use-weakness-on-high-weight: True
   use-weakness-on-max-weight: True

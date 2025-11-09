@@ -7,6 +7,7 @@ import me.nyarikori.weightOfItems.service.ConfigService;
 import me.nyarikori.weightOfItems.service.weight.WeaknessService;
 import me.nyarikori.weightOfItems.service.weight.WeightService;
 import me.nyarikori.weightOfItems.service.weight.WeightType;
+import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -28,6 +29,14 @@ public class InventoryListener implements Listener {
         Player player = event.getPlayer();
 
         if (player.hasPermission("weightofitems.bypass")) {
+            return;
+        }
+
+        GameMode gameMode = player.getGameMode();
+
+        if (gameMode.equals(GameMode.CREATIVE) && (boolean) configService.get("disable-weights-in-creative")
+        ||  gameMode.equals(GameMode.SPECTATOR) && (boolean) configService.get("disable weights-in-spectator")
+        ||  gameMode.equals(GameMode.ADVENTURE) && (boolean) configService.get("disable weights-in-adventure")) {
             return;
         }
 
