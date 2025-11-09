@@ -1,9 +1,9 @@
-package me.nyarikori.weightOfItems.service;
+package me.nyarikori.weightOfItems.service.weight;
 
 import me.nyarikori.commons.Lifecycle;
 import me.nyarikori.commons.annotation.Autowired;
 import me.nyarikori.commons.annotation.Service;
-import me.nyarikori.weightOfItems.service.weight.WeightType;
+import me.nyarikori.weightOfItems.service.ConfigService;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;

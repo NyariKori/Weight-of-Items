@@ -1,0 +1,8 @@
+enabled-message: "Plugin enabled!"
+disable-message: "Plugin disabled!"
+reload-message: "Plugin Successful reloaded!"
+
+placeholderapi-hook: "Successful hook into PlaceholderAPI!"
+unsuccessful-placeholderapi-hook: "Trying to hook into Placeholder is unsuccessful"
+
+actionbar-text: "<white>Your weight: %weightofitems_player_weight%/%weightofitems_max_weight%" # %weightofitems_player_weight_colored%

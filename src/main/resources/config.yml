@@ -1,0 +1,21 @@
+configuration:
+  use-actionbar: True
+
+  medium-weight: 35.00
+  high-weight: 65.00
+  max-weight: 80.00
+
+  medium-weight-speed: 0.17
+  high-weight-speed: 0.15
+  max-weight-speed: 0.0
+
+  use-weakness-on-medium-weight: True
+  use-weakness-on-high-weight: True
+  use-weakness-on-max-weight: True
+
+  weakness-amplifier-medium-weight: 1
+  weakness-amplifier-high-weight: 2
+  weakness-amplifier-max-weight: 4
+
+  weights: # weight for 1 amount
+    WHITE_WOOL: 0.02

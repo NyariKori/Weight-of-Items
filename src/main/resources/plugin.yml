@@ -1,7 +1,9 @@
-name: Weight of items
+name: WeightOfItems
 version: '1.0'
 main: me.nyarikori.weightOfItems.WeightOfItems
 api-version: '1.20'
-load: STARTUP
+load: POSTWORLD
 authors: [ NyariKori ]
 website: https://github.com/NyariKori
+softdepend:
+  - PlaceholderAPI
