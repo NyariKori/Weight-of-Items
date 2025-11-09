@@ -17,7 +17,7 @@ Control over each item: You can assign an individual weight to any item in Minec
 The plugin gives administrators full control to create the perfect gaming experience.
 
 ### Commands:
-#### ``/reload ``- restarts the plugin localization and config
+``/reload``- restarts the plugin localization and config
 
 ### Permissions:
 ``weightofitems.reload`` - the ability to restart the plugin
