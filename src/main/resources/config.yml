@@ -17,6 +17,8 @@ configuration:
   use-weakness-on-high-weight: True
   use-weakness-on-max-weight: True
 
+  use-weakness-particles: True
+
   weakness-amplifier-medium-weight: 1
   weakness-amplifier-high-weight: 2
   weakness-amplifier-max-weight: 4

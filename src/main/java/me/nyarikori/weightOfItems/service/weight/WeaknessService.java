@@ -37,7 +37,7 @@ public class WeaknessService implements Lifecycle {
 
     private void createWeakness(Player player, int amplifier) {
         player.addPotionEffect(new PotionEffect(PotionEffectType.WEAKNESS,
-                Integer.MAX_VALUE, amplifier, false, true));
+                Integer.MAX_VALUE, amplifier, false, configService.get("use-weakness-particles")));
 
         playersWithWeakness.add(player.getName());
     }
